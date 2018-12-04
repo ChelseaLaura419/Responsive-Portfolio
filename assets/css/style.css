@@ -54,7 +54,7 @@ a {
     padding: 20px;
     margin: 30px auto;
     width: 920px;
-    height: 425px;
+    height: auto;
     background-color: #fff;
     border: 1px solid #dddddd;
 }
@@ -85,7 +85,6 @@ p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0px;
-    float: left;
     line-height: 25px;
 }
 
@@ -172,11 +171,11 @@ input[type=submit]:hover {
 
    @media screen and (max-width: 768px) {
     .container {
-        width: 728px;
+        width: 100%;
     
     }
     ul {
-     width: 728px;
+     width: 100%;
     }
 
     .main {
@@ -192,17 +191,16 @@ input[type=submit]:hover {
 
   @media screen and (max-width: 640px) {
     .container {
-        width: 600px;
+        width: 100%;
     
     }
     ul {
-     width: 600px;
+     width: 100%;
     }
 
     .main {
         padding: 20px;
         width: 540px;
-        height: 550px;
     }
 
     .gallery {
