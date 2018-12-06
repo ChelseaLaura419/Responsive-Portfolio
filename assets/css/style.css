@@ -215,4 +215,16 @@ input[type=submit]:hover {
          float: none;
          text-align: center;
      }    
+
+    li {
+        width: 32%;
+        padding: 5px 0;
+        text-align: center;
+        line-height: 35px;
+        float: none;
+    }
+
+    nav {
+        height: 85px;
+    }
 }
