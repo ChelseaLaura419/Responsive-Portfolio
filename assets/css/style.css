@@ -185,6 +185,7 @@ input[type=submit]:hover {
 
     .gallery {
         width: 668px;
+        height: 880px;
      }
     
   }
@@ -207,6 +208,11 @@ input[type=submit]:hover {
         width: 500px;
         height: 1700px;
      }
-    
-    
+
+     .name {
+         width: 100%;
+         line-height: 45px;
+         float: none;
+         text-align: center;
+     }    
 }
